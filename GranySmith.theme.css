@@ -25,11 +25,11 @@ OilyGranySmith
 @import url("https://OILYY.github.io/GranySmith/Addons/FolderRedesign.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
+/*@import url("https://OILYY.github.io/GranySmith/Addons/SimpleLessLag.css");*/
 
 
 
-/*Chillax Roots*/
+/*GranySmith Roots*/
 :root{
 /*background image*/ /*(replace the link to use)*/
   --background-image:var(--wallpaper);
@@ -84,9 +84,9 @@ OilyGranySmith
   --rs-phone-color:var(--rs-online-color);
 
 
-/*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+/*GranySmith colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
   --accentcolor:	  251, 84, 84;	
-/*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+/*GranySmith colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
   --accentcolorV2:     #fb5454;
      
      
