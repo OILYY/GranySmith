@@ -1,5 +1,5 @@
-# wq presents:   C H I L L A X
-![chillax](https://user-images.githubusercontent.com/84565593/235061753-91bd6417-9ce3-4f0d-9004-221676a9d042.png)
+# OilyGranySmith
+![GranySmith](https://user-images.githubusercontent.com/84565593/235061753-91bd6417-9ce3-4f0d-9004-221676a9d042.png)
 
 # Installation
 To download the theme in Better Discord Site:
@@ -9,19 +9,13 @@ To download the theme in Better Discord Site:
 4. Go back to Discord and enable the theme and VOILA you did it.
 
 To download the theme in Github:
-1. Go to chillax.theme.css
+1. Go to GranySmith.theme.css
 2. Press the copy raw contents button.
 3. Edit the theme.css in your Discord.
 4. Select everything and paste in the copied code.
 
-
-And if you want a YouTube tutorial, go to this link: "https://youtu.be/U0tTENsBS4w"
-
 # What do i do if the theme is outdated?
 As where you are right now, you should be at the Better Discord site so just redownload the theme and open your themes folder remove the old one and add the new one you just downloaded.
-
-# Support
-For problems installing or using the theme join the support server [https://discord.gg/DrfX6286kF] and ask for help.
 
 # Some of our best of the best
 ![image](https://user-images.githubusercontent.com/84565593/195045896-bd386edd-3af8-45be-b526-53f55f8ba869.png)
