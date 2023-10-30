@@ -1,4 +1,5 @@
-# OilyGranySmith
+# oily presents:   GranySmith
+![GranySmith](https://i.imgur.com/xoXPX3s.png)
 
 # Installation
 To download the theme in Better Discord Site:
@@ -15,6 +16,9 @@ To download the theme in Github:
 
 # What do i do if the theme is outdated?
 As where you are right now, you should be at the Better Discord site so just redownload the theme and open your themes folder remove the old one and add the new one you just downloaded.
+
+# Support
+For problems installing or using the theme join the support server [https://discord.gg/Y36CTWeCFE] and ask for help.
 
 # Author
 - › OilyGranySmith
