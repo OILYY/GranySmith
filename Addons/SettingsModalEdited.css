@@ -152,7 +152,7 @@ empty area (look at linesight) */
 }
 
 .theme-dark .placeholder_e68c63::before {
-	content: "OilyGranySmith ON TOP";
+	content: "Whats on your mind today OilyGranySmith?";
 	color: rgba(255, 255, 255, 0.2);
 	font-family: "Poppins";
 	font-size: 13px;
