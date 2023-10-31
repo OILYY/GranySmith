@@ -22,9 +22,9 @@ For problems installing or using the theme join the support server [https://disc
 
 # Some of our best of the best
 ![GranySmith2](https://i.imgur.com/IO1pb3q.png)
-![profilebadge1](https://i.imgur.com/LOU6Jy0l.png)
-![profilebadge2](https://i.imgur.com/qD5zELxl.png)
-![profilebadge3](https://i.imgur.com/TMTr2Jul.png)
+![profilebadge1](https://i.imgur.com/LOU6Jy0m.png)
+![profilebadge2](https://i.imgur.com/qD5zELxm.png)
+![profilebadge3](https://i.imgur.com/TMTr2Jum.png)
 ![avatarlist1](https://i.imgur.com/Gbb9uG0l.png)
 ![avatarlist2](https://i.imgur.com/EJT4DF3l.png)
 ![settings1](https://i.imgur.com/q937Rcn.png)
