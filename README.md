@@ -20,5 +20,15 @@ As where you are right now, you should be at the Better Discord site so just red
 # Support
 For problems installing or using the theme join the support server [https://discord.gg/Y36CTWeCFE] and ask for help.
 
+# Some of our best of the best
+![image](https://i.imgur.com/IO1pb3q.png)
+![image](https://i.imgur.com/LOU6Jy0.png)
+![image](https://i.imgur.com/qD5zELx.png)
+![image](https://i.imgur.com/TMTr2Ju.png)
+![image](https://i.imgur.com/Gbb9uG0.png)
+![image](https://i.imgur.com/EJT4DF3.png)
+![image](https://i.imgur.com/q937Rcn.png)
+![image](https://i.imgur.com/1Mjcfmp.png)
+
 # Author
 - › OilyGranySmith
