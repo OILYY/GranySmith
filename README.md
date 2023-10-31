@@ -21,14 +21,14 @@ As where you are right now, you should be at the Better Discord site so just red
 For problems installing or using the theme join the support server [https://discord.gg/Y36CTWeCFE] and ask for help.
 
 # Some of our best of the best
-![image](https://i.imgur.com/IO1pb3q.png)
-![image](https://i.imgur.com/LOU6Jy0l.png)
-![image](https://i.imgur.com/qD5zELxl.png)
-![image](https://i.imgur.com/TMTr2Jul.png)
-![image](https://i.imgur.com/Gbb9uG0l.png)
-![image](https://i.imgur.com/EJT4DF3l.png)
-![image](https://i.imgur.com/q937Rcn.png)
-![image](https://i.imgur.com/1Mjcfmp.png)
+![GranySmith2](https://i.imgur.com/IO1pb3q.png)
+![profilebadge1](https://i.imgur.com/LOU6Jy0l.png)
+![profilebadge2](https://i.imgur.com/qD5zELxl.png)
+![profilebadge3](https://i.imgur.com/TMTr2Jul.png)
+![avatarlist1](https://i.imgur.com/Gbb9uG0l.png)
+![avatarlist2](https://i.imgur.com/EJT4DF3l.png)
+![settings1](https://i.imgur.com/q937Rcn.png)
+![settings2](https://i.imgur.com/1Mjcfmp.png)
 
 # Author
 - › OilyGranySmith
