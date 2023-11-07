@@ -18,7 +18,7 @@ To download the theme in Github:
 As where you are right now, you should be at the Better Discord site so just redownload the theme and open your themes folder remove the old one and add the new one you just downloaded.
 
 # Support
-For problems installing or using the theme join the support server [Discord](https://discord.gg/Y36CTWeCFE) and ask for help.
+For problems installing or using the theme join the [Discord](https://discord.gg/Y36CTWeCFE) support server and ask for help.
 
 # Some of our best of the best
 ![GranySmith2](https://i.imgur.com/IO1pb3q.png)
