@@ -1036,6 +1036,11 @@ span:not(.spinner-item) {
   color: #ff5500 !important;
 }
 
+/* TikTok */
+[href*="tiktok.com"] {
+  color: #030303 !important;
+}
+
 /* Center profile badge, avatar and name */
 .avatarWrapperNormal-ahVUaC {
   position: absolute;
