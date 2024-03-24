@@ -52,7 +52,7 @@ OilyGranySmith
   --window-colour: #0009;
   --window-blur: 5px;
   --window-border-radius: 10px;
-  --sidebar-colour: rgb(36, 136, 36);
+  --sidebar-colour: rgb(36, 36, 36);
 }
 
 /*window*/
@@ -104,7 +104,7 @@ OilyGranySmith
 
   /*settings modal root*/
   --themelightsettingsmodalbackground: rgb(223, 223, 223);
-  --themedarksettingsmodalbackground: rgb(80, 221, 107);
+  --themedarksettingsmodalbackground: rgb(51, 49, 53);
   --settingsmodalwidth: 960px;
   --settingsmodalheight: 80vh;
 }
@@ -114,19 +114,19 @@ OilyGranySmith
 /*theme dark*/
 .theme-dark {
   --background-message-hover: rgba(255, 255, 255, 0.055);
-  --header-primary: #000000;
-  --header-secondary: #323232;
+  --header-primary: #fff;
+  --header-secondary: #b9bbbe;
   --text-normal: #dcddde;
   --text-muted: #9d9d9d;
   --channels-default: #8e9297;
   --interactive-normal: #b9bbbe;
-  --interactive-hover: #d6bf5b;
+  --interactive-hover: #dcddde;
   --interactive-active: #fff;
   --interactive-muted: #4f545c;
   --background-primary: transparent;
   --background-secondary: transparent;
   --background-tertiary: transparent;
-  --background-accent: rgb(36, 136, 36);
+  --background-accent: rgb(36, 36, 36);
   --activity-card-background: transparent;
   --deprecated-panel-background: transparent;
 }
@@ -275,7 +275,7 @@ button[id="super-reaction-picker-tab"] {
 }
 
 .option-Uc12mm:hover {
-  background-color: #50dd6b !important;
+  background-color: #333135 !important;
 }
 
 /* Role picker background */
