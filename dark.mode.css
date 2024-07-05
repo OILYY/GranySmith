@@ -20,400 +20,422 @@
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
 /*home tab fix*/
-.forumOrHome-2VTX6r {
-  background: transparent;
+.forumOrHome_ff5f90 {
+    background: transparent;
 }
 
 /*spotify controls error background*/
-.panels-3wFtMD span {
-  background: transparent !important;
+.panels_a4d4d9 span {
+    background: transparent !important;
 }
 
 /*friends tab*/
-.content-1SgpWY>div,
-.panels-3wFtMD {
-  background: transparent !important;
+.content_a4d4d9 > div,
+.panels_a4d4d9 {
+    background: transparent !important;
 }
 
 /*transparent scrollbar*/
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-track-piece {
-  border-color: transparent !important;
-  background: transparent !important;
+    border-color: transparent !important;
+    background: transparent !important;
 }
 
 ::-webkit-scrollbar-thumb {
-  border: none !important;
-  background-clip: content-box !important;
-  background: transparent !important;
+    border: none !important;
+    background-clip: content-box !important;
+    background: transparent !important;
 }
 
 /*transparent call background*/
-.wrapper-1gVUIN,
-.minimum-fXpVNc,
-.callContainer-HtHELf {
-  background: none !important;
+.wrapper_d880dc,
+.minimum_d880dc,
+.callContainer_d880dc {
+    background: none !important;
 }
 
-.root-u9h3Ui,
-.tile-2TcwiO {
-  background: none;
+.root_f42a96,
+.tile_dc5fc4 {
+    background: none;
 }
 
-.videoGrid-1tZm-F {
-  background: transparent !important;
+.videoGrid_bae578 {
+    background: transparent !important;
 }
 
 /* transparent role selection / browse channels / members page background */
-.container__11d72,
-.container__10dc7,
-.container__7590f {
-  background-color: transparent !important;
+.container_e44302,
+.container_f1fd9c,
+.container_c2efea {
+    background-color: transparent !important;
 }
 
 /* transparent default avatar section background */
-.container-1CH86i {
-  background: transparent !important;
+.container_b2ca13 {
+    background: transparent !important;
 }
 
 /**transparent part LVL II**/
 /*small profile modal*/
 .theme-dark .userPopout-2j1gM4 {
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
 }
 
 .theme-dark .footer-3naVBw {
-  background-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .theme-dark .avatar-2Vndt_ {
-  border: 6px solid transparent;
-  background-color: transparent;
+    border: 6px solid transparent;
+    background-color: transparent;
 }
 
 .theme-dark .bodyInnerWrapper-2bQs1k {
-  background: transparent;
+    background: transparent;
 }
 
 /*small profile modal 2*/
 .avatar-2OC07D {
-  background: none;
-  box-shadow: none !important;
+    background: none;
+    box-shadow: none !important;
 }
 
-.avatarHint-k7pYop foreignObject {
-  mask: none;
+.avatarHint_f89da9 foreignObject {
+    mask: none;
 }
 
-.avatarHintInner-2HUAWj {
-  border-radius: 50px;
+.avatarHintInner_f89da9 {
+    border-radius: 50px;
 }
 
 /*bd editor titlebar*/
 .theme-dark .floating-window-titlebar {
-  background-color: rgba(0, 0, 0, 0.575);
-  backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.575);
+    backdrop-filter: blur(2px);
 }
 
 /*code block*/
-.theme-dark .scrollbar-3vVt8d {
-  background-color: rgba(0, 0, 0, 0.377) !important;
+.theme-dark .scrollbar_c858ce {
+    background-color: rgba(0, 0, 0, 0.377) !important;
 }
 
 /*menu blur*/
-.theme-dark .menu-1QACrS {
-  /*Main class*/
-  background-color: rgba(0, 0, 0, 0.3);
+.theme-dark .menu_d90b3d {
+    /*Main class*/
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-.menu-1QACrS::before,
-.menu-1QACrS.submenu-1apzyU::before {
-  /*Blurs the menu*/
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(15px);
-  z-index: -1;
-  border-radius: 5px;
+.menu_d90b3d::before,
+.menu_d90b3d.submenu-1apzyU::before {
+    /*Blurs the menu*/
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
+    z-index: -1;
+    border-radius: 5px;
+}
+
+/* Fix blur in nested floating menu */
+.submenu_d90b3d.menu_d90b3d::before {
+    width: calc(100% - 16px);
 }
 
 /*all in settings*/
-.messagesPopoutWrap-3zryHW,
-.drawerSizingWrapper-1txdWG {
-  backdrop-filter: blur(5px) !important;
-  background: #0004 !important;
+.messagesPopoutWrap_ac90a2,
+.drawerSizingWrapper_af5dbb {
+    backdrop-filter: blur(5px) !important;
+    background: #0004 !important;
 }
 
 .inspector-2A2Ch {
-  backdrop-filter: blur(5px);
-  background: transparent;
+    backdrop-filter: blur(5px);
+    background: transparent;
 }
 
 .feature-2IUcBI,
 .container-2nx-BQ,
 .bd-switch-body {
-  background: #0007 !important;
+    background: #0007 !important;
 }
 
-.verticalFit-21XL0v,
+.verticalFit_f66684,
 .card-16VQ8C {
-  background: #0001 !important;
+    background: #0001 !important;
 }
 
-.bottomDivider-ZmTm-j {
-  background: transparent !important;
+.bottomDivider_f66684 {
+    background: transparent !important;
 }
 
 .bar-1Bhnl9,
 .markDash-yk2kJ- {
-  background: rgb(175, 175, 175) !important;
+    background: rgb(175, 175, 175) !important;
 }
 
 .popout-1KHNAq {
-  backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 .bd-addon-card {
-  background: rgba(0, 0, 0, 0.349) !important;
+    background: rgba(0, 0, 0, 0.349) !important;
 }
 
 .bd-addon-header {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 /*forum channel*/
 .container-3wLKDe {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 /*--FANCY CSS CODES--*/
 /*discord wordmark*/
-.wordmark-2u86JB path {
-  display: none !important;
+.wordmark_a934d8 path {
+    display: none !important;
 }
 
-.theme-dark .wordmark-2u86JB::before {
-  content: "‏‏‎ oily";
-  font-size: 12px;
-  font-family: "Poiret one" !important;
-  position: fixed;
-  color: rgb(255, 255, 255);
-  background: var(--window-colour);
-  backdrop-filter: blur(var(--window-blur));
-  border-radius: 5px;
-  padding: 7px 11px 7px 7px;
-  margin-left: 20px;
-  margin-top: 5px;
-  pointer-events: all;
-  transition: 0.5s ease-in-out;
+.theme-dark .wordmark_a934d8::before {
+    content: "‏‏‎ oily";
+    font-size: 12px;
+    font-family: "Poiret one" !important;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur));
+    border-radius: 5px;
+    padding: 7px 11px 7px 7px;
+    margin-left: 20px;
+    margin-top: 5px;
+    pointer-events: all;
+    transition: 0.5s ease-in-out;
 }
 
-.wordmark-2u86JB:hover:before {
-  content: "‏‏‎ oily";
-  letter-spacing: 2px;
+.wordmark_a934d8:hover:before {
+    content: "‏‏‎ oily";
+    letter-spacing: 2px;
 }
 
 /* button design*/
-.theme-dark .lookFilled-1H2Jvj {
-  border-radius: 45px;
-  background: rgb(36, 36, 36) !important;
-  color: rgb(255, 255, 255) !important;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  font-family: "Roboto";
-  font-size: 12px;
-  transition: 0.2s;
+.theme-dark .lookFilled_dd4f85 {
+    border-radius: 45px;
+    background: rgb(36, 36, 36) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto";
+    font-size: 12px;
+    transition: 0.2s;
 }
 
-.theme-dark .lookFilled-1H2Jvj:hover {
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+.theme-dark .lookFilled_dd4f85:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    background: rgb(0, 0, 0) !important;
+    transition: 0.1s;
 }
 
 /*channel unread pill*/
-.unread-36eUEm {
-  margin-left: 4px;
-  border-radius: 20px;
+.unread_d8bfb3 {
+    margin-left: 4px;
+    border-radius: 20px;
+}
+
+/* Fix so that the unread button/container always stays visible
+ on top of other stuff like spotify controls etc */
+
+.unreadBottom_c43953 {
+    z-index: 9999 !important;
+}
+
+.container_eba0ba.bottom_eba0ba {
+    z-index: 9999 !important;
 }
 
 /*spotify gradient thing*/
 .theme-dark .timeline-UWmgAx:hover .barFill-Dhkah7 {
-  background: linear-gradient(135deg, #2b2b2b, var(--accentcolorV2));
+    background: linear-gradient(135deg, #2b2b2b, var(--accentcolorV2));
 }
 
 /*chatbox recolour*/
 .input-2g-os5,
-.scrollableContainer__33e06 {
-  background-color: transparent !important;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-  outline: none;
+.scrollableContainer_d0696b {
+    background-color: transparent !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    outline: none;
 }
 
-.placeholder_e68c63.slateTextArea__0661c.fontSize16Padding__48818 {
-  color: transparent !important;
+.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_d0696b {
+    color: transparent !important;
 }
 
 .theme-dark .input-2g-os5:hover,
-.theme-dark .scrollableContainer__33e06:hover {
-  background-color: #00000023 !important;
+.theme-dark .scrollableContainer_d0696b:hover {
+    background-color: #00000023 !important;
 }
 
 /* attachedBars is the reply bar */
 .theme-dark .input-2g-os5:focus-within,
-.theme-dark .scrollableContainer__33e06:focus-within,
-.attachedBars_da3c74 {
-  background-color: #181a1d !important;
-  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
+.theme-dark .scrollableContainer_d0696b:focus-within {
+    background-color: #181a1d !important;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
 }
 
-.message-2CShn3 {
-  border-radius: 8px !important;
+.message_d5deea {
+    border-radius: 8px !important;
 }
 
-.mentioned__58017 {
-  border-radius: 0 8px 8px 0 !important
+.mentioned_d5deea {
+    border-radius: 0 8px 8px 0 !important
 }
 
 /*Textbox Text*/
-.theme-dark .placeholder_e68c63 {
-  visibility: hidden !important;
+.theme-dark .placeholder_a552a6 {
+    visibility: hidden !important;
 }
 
-.theme-dark .placeholder_e68c63::before {
-  content: "What is on your mind today OilyGranySmith?";
-  color: rgba(255, 255, 255, 0.2);
-  font-family: "Poppins";
-  font-size: 13px;
-  visibility: visible !important;
+.theme-dark .placeholder_a552a6::before {
+    content: "What is on your mind today OilyGranySmith?";
+    color: rgba(255, 255, 255, 0.2);
+    font-family: "Poppins";
+    font-size: 13px;
+    visibility: visible !important;
+}
+
+/* Fix slight scroll when text box is empty */
+.inner_d0696b {
+    overflow: hidden !important;
 }
 
 /* Replace Wandering Cubes Spinner/loading discord image with gif*/
 span[class="inner-26JK4f"]:after {
-  background-image: url("https://multiplexurbangreen.com/images/loader.gif");
-  background-size: cover;
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  content: "";
+    background-image: url("https://multiplexurbangreen.com/images/loader.gif");
+    background-size: cover;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    content: "";
 }
 
-span[class="inner-26JK4f"]>* {
-  display: none;
+span[class="inner-26JK4f"] > * {
+    display: none;
 }
 
 /* member list and friend DMs hover effect */
-.clickable-28SzVr:hover,
-.interactive-1vLZ_I:hover {
-  transform: scale(1.1);
-  transition: all 0.2s;
+.clickable_e9f61e:hover,
+.interactive_f5eb4b:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
 }
 
-.clickable-28SzVr,
-.interactive-1vLZ_I {
-  transition: all 0.3s;
+.clickable_e9f61e,
+.interactive_f5eb4b {
+    transition: all 0.3s;
 }
 
 /*recolor search*/
-.theme-dark .container-2McqkF {
-  -webkit-box-shadow: var(--elevation-high) !important;
-  box-shadow: var(--elevation-high) !important;
+.theme-dark .container_eedf95 {
+    -webkit-box-shadow: var(--elevation-high) !important;
+    box-shadow: var(--elevation-high) !important;
 }
 
-.theme-dark .elevationBorderHigh-3drnJX {
-  box-shadow: none !important;
-  background: rgba(0, 0, 0, 0.555) !important;
-  backdrop-filter: blur(10px) !important;
+.theme-dark .elevationBorderHigh_ff8688 {
+    box-shadow: none !important;
+    background: rgba(0, 0, 0, 0.555) !important;
+    backdrop-filter: blur(10px) !important;
 }
 
-.theme-dark .container-2McqkF {
-  border-radius: 8px !important;
+.theme-dark .container_eedf95 {
+    border-radius: 8px !important;
 }
 
 .theme-dark .option-2KkUJO:after {
-  display: none !important;
+    display: none !important;
 }
 
 .theme-dark .searchOption-351dTI .filter-5YbOzJ {
-  color: var(--accentcolorV2) !important;
+    color: var(--accentcolorV2) !important;
 }
 
 /*connected vc buttons background*/
-.wrapper-3t3Yqv,
-.centerButton-1IShs7.colorable-3rVGna {
-  background-color: var(--accentcolorV2) !important;
-  border-radius: 50px;
+.wrapper_b6e2f9,
+.centerButton_ef18ee.colorable_ef18ee {
+    background-color: var(--accentcolorV2) !important;
+    border-radius: 50px;
 }
 
 /*better mark as read button*/
 @keyframes pop {
-  from {
-    transform: translateY(30px);
-    opacity: 0.4;
-  }
+    from {
+        transform: translateY(30px);
+        opacity: 0.4;
+    }
 
-  to {
-    transform: translateY(0);
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.newMessagesBar_cf58b5.barBase_cf58b5 {
+    margin-left: auto;
+    margin-top: auto;
+    align-self: flex-end;
+    justify-self: flex-end !important;
+    position: absolute !important;
+    z-index: 998;
+    bottom: 78px;
+    right: 22px;
+    padding: 8px 8px !important;
+    width: 25.5px;
+    height: 20px;
+    background-color: var(--brand-experiment);
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    animation: pop 0.2s ease-in;
+    transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
     opacity: 1;
-  }
 }
 
-.newMessagesBar-1hF-9G.barBase-3xxDXu {
-  margin-left: auto;
-  margin-top: auto;
-  align-self: flex-end;
-  justify-self: flex-end !important;
-  position: absolute !important;
-  z-index: 998;
-  bottom: 78px;
-  right: 22px;
-  padding: 8px 8px !important;
-  width: 25.5px;
-  height: 20px;
-  background-color: var(--brand-experiment);
-  box-shadow: var(--elevation-high);
-  border-radius: 100px;
-  display: flex;
-  animation: pop 0.2s ease-in;
-  transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
-  opacity: 1;
+.newMessagesBar_cf58b5.barBase_cf58b5:hover {
+    padding: 8px 18px !important;
+    width: 105px;
+    transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
 }
 
-.newMessagesBar-1hF-9G.barBase-3xxDXu:hover {
-  padding: 8px 18px !important;
-  width: 105px;
-  transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
+.newMessagesBar_cf58b5.barBase_cf58b5 > button {
+    font-size: 0px;
+    color: transparent !important;
+    transition: color 0.3s 0.1s, padding 0.4s;
 }
 
-.newMessagesBar-1hF-9G.barBase-3xxDXu>button {
-  font-size: 0px;
-  color: transparent !important;
-  transition: color 0.3s 0.1s, padding 0.4s;
+.newMessagesBar_cf58b5.barBase_cf58b5:hover > button {
+    font-size: 14px;
+    color: #ffffff !important;
+    transition: color 0.3s 0.1s, padding 0.4s;
 }
 
-.newMessagesBar-1hF-9G.barBase-3xxDXu:hover>button {
-  font-size: 14px;
-  color: #ffffff !important;
-  transition: color 0.3s 0.1s, padding 0.4s;
+.barButtonIcon_cf58b5 {
+    order: -1;
+    margin: 0;
+    margin-right: 0;
+    margin-left: 6.5px;
+    transition: all 0.2s;
+    color: #fff !important;
 }
 
-.barButtonIcon-bMvzp2 {
-  order: -1;
-  margin: 0;
-  margin-right: 0;
-  margin-left: 6.5px;
-  transition: all 0.2s;
-  color: #fff !important;
+.newMessagesBar_cf58b5.barBase_cf58b5:hover .barButtonIcon_cf58b5 {
+    margin-right: 5px;
+    margin-left: 0;
 }
 
-.newMessagesBar-1hF-9G.barBase-3xxDXu:hover .barButtonIcon-bMvzp2 {
-  margin-right: 5px;
-  margin-left: 0;
-}
-
-.barButtonBase-Sk2mdB {
-  padding: 0;
+.barButtonBase_cf58b5 {
+    padding: 0;
 }
 
 .barButtonMain-2GIx4o,
