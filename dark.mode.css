@@ -1060,6 +1060,16 @@ span:not(.spinner-item) {
     color: #ff5500 !important;
 }
 
+/* Instagram */
+[href*="instagram.com"] {
+    color: #8134af !important;
+}
+
+/* Facebook */
+[href*="facebook.com"] {
+    color: #4267b2 !important;
+}
+
 /* TikTok */
 [href*="tiktok.com"] {
     color: #030303 !important;
