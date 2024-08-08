@@ -65,7 +65,7 @@
 }
 
 /* transparent role selection / browse channels / members page background */
-.container_e44302,
+.container_fc4f04,
 .container_f1fd9c,
 .container_c2efea {
     background-color: transparent !important;
@@ -298,7 +298,7 @@
 }
 
 .theme-dark .placeholder_a552a6::before {
-    content: "What is on your mind today OilyGranySmith?";
+    content: "Life is so much easier when you just take a moment to chill";
     color: rgba(255, 255, 255, 0.2);
     font-family: "Poppins";
     font-size: 13px;
@@ -325,13 +325,13 @@ span[class="inner-26JK4f"] > * {
 }
 
 /* member list and friend DMs hover effect */
-.clickable_e9f61e:hover,
+.clickable_d808b0:hover,
 .interactive_f5eb4b:hover {
     transform: scale(1.1);
     transition: all 0.2s;
 }
 
-.clickable_e9f61e,
+.clickable_d808b0,
 .interactive_f5eb4b {
     transition: all 0.3s;
 }
@@ -838,7 +838,7 @@ span:not(.spinner-item) {
     color: var(--text-muted);
 }
 
-.container_e44302.themed_e44302 .search_ff5f90 {
+.container_fc4f04.themed_fc4f04 .search_ff5f90 {
     order: -1 !important;
 }
 
@@ -906,12 +906,12 @@ span:not(.spinner-item) {
 }
 
 /*user setting icon spin*/
-.button_f67531:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+.button_adca65:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
     animation: Settings 1s;
     transform-origin: center;
 }
 
-.button_f67531:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+.button_adca65:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
     animation: Settings2 1s;
     transform-origin: center;
 }
@@ -937,12 +937,12 @@ span:not(.spinner-item) {
 }
 
 /*custom unread style*/
-.unreadPillCap_fc5f50 {
+.unreadPillCap_c2654d {
     display: none;
     right: 50%;
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
     background-color: var(--background-shading);
     color: #fb5454;
     font-size: 12px;
@@ -952,7 +952,7 @@ span:not(.spinner-item) {
     width: 30px;
 }
 
-.isUnread_fc5f50 {
+.isUnread_c2654d {
     --divider-color: rgb(237, 0, 255);
     border: none;
     background: linear-gradient(90deg,
@@ -964,20 +964,24 @@ span:not(.spinner-item) {
     height: 1px;
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
     top: -6px;
 }
 
 /*custom channel and text area font and size*/
-.title_e44302 {
+.title_fc4f04 {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
 }
 
-.messageContent_ec86aa,
-.contents_ec86aa {
+.messageContent_f9f2ca,
+.contents_f9f2ca {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
+}
+
+.markup_f8f345 h1, .markup_f8f345 h2, .markup_f8f345 h3, .markup_f8f345 h4, .markup_f8f345 h5, .markup_f8f345 h6 {
+    font-family: var(--font-name);
 }
 
 /*custom public servers and create server buttons*/
@@ -1541,12 +1545,12 @@ svg {
     --embed-border-radius: 5px;
 }
 
-.theme-dark .embed_ad0b71 {
+.theme-dark .embed_b0068a {
     border-radius: var(--embed-border-radius);
     z-index: 2;
 }
 
-.theme-dark .embed_ad0b71 code {
+.theme-dark .embed_b0068a code {
     background: rgb(51, 50, 53);
 }
 
@@ -1554,25 +1558,25 @@ svg {
     --embed-line-width: 300px;
 }
 
-.theme-dark .embedFull_ad0b71 {
+.theme-dark .embedFull_b0068a {
     border-top: none;
     border-right: none;
     border-bottom: none;
 }
 
-.theme-dark .embedFull_ad0b71 {
+.theme-dark .embedFull_b0068a {
     border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
     background: rgb(51, 50, 53);
     box-shadow: 2px 2px 8px rgb(42, 42, 46);
 }
 
-.theme-dark .grid_ad0b71 {
+.theme-dark .grid_b0068a {
     margin-left: calc(-1 * var(--embed-line-width));
     z-index: 1;
 }
 
-.theme-dark .embedFull_ad0b71:after,
-.embedFull_ad0b71:before {
+.theme-dark .embedFull_b0068a:after,
+.embedFull_b0068a:before {
     content: "";
     height: 100%;
     width: var(--embed-line-width);
@@ -1581,19 +1585,19 @@ svg {
     left: calc(-1 * var(--embed-line-width));
 }
 
-.theme-dark .embedFull_ad0b71:after {
+.theme-dark .embedFull_b0068a:after {
     background: linear-gradient(to right, transparent, rgb(51, 50, 53));
     z-index: -3;
 }
 
-.theme-dark .embedFull_ad0b71:before {
+.theme-dark .embedFull_b0068a:before {
     background: rgb(51, 50, 53);
     opacity: 0.8;
     z-index: -1;
 }
 
 /* Settings/Deafen/Mute Buttons Animated */
-.button_f67531:hover .contents-3ca1mk {
+.button_adca65:hover .contents-3ca1mk {
     animation: UserModalButtons 0.5s normal ease;
 }
 
@@ -1612,7 +1616,7 @@ svg {
 }
 
 /*guild pills glow*/
-.theme-dark .item_fd07a3 {
+.theme-dark .item_c4cd66 {
     box-shadow: 0 0 3px rgb(255, 255, 255);
 }
 
@@ -1897,19 +1901,19 @@ svg {
     display: block;
 }
 
-.panels_a4d4d9 > .container_b2ca13 .flex_bba380 > :not(:last-child) {
+.panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
     opacity: 0% !important;
     width: 50px;
     transition: all 0.3s;
 }
 
-.theme-dark .panels_a4d4d9 > .container_b2ca13:hover .flex_bba380 > :not(:last-child) {
+.theme-dark .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
     opacity: 100% !important;
     width: 40px;
     margin-left: 10px;
 }
 
-.button_f67531[aria-label="User Settings"] {
+.button_adca65[aria-label="User Settings"] {
     margin-left: 10px;
 }
 
@@ -1959,11 +1963,11 @@ svg {
     min-width: 207px !important;
 }
 
-.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']) .flex_bba380 > :not(:last-child) {
+.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']) .flex_dc333f > :not(:last-child) {
     width: 38px !important;
 }
 
-.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_bba380 > :not(:last-child) {
+.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_dc333f > :not(:last-child) {
     margin-left: 0px !important;
 }
 
@@ -1975,18 +1979,18 @@ svg {
     min-width: 207px !important;
 }
 
-.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']) .flex_bba380 > :not(:last-child) {
+.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']) .flex_dc333f > :not(:last-child) {
     width: 38px !important;
 }
 
-.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_bba380 > :not(:last-child) {
+.theme-dark .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_dc333f > :not(:last-child) {
     margin-left: 0px !important;
 }
 
 /* End of the if*/
 
 
-/*Custom SpotifyControl in user panel*/
+/*Custom SpotifyControl in user panel for BetterDiscord*/
 .container_6sXIoE.withTimeline_824fT_ {
     height: var(--playerHeight);
     border: none !important;
@@ -2099,6 +2103,154 @@ svg {
     inset: 10px 0 0 10px;
     overflow: hidden;
     z-index: -1;
+}
+
+/* Custom Spotify controls for Vencord */
+#vc-spotify-player {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 8px;
+    border-bottom-color: transparent;
+    --vc-spotify-green: var(--accentcolorV2);
+}
+
+.theme-dark #vc-spotify-player {
+    background-color: #181a1d !important;
+}
+
+#vc-spotify-player::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--vc-spotify-track-image);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    opacity: .6;
+    z-index: 0;
+}
+
+#vc-spotify-info-wrapper {
+    height: auto;
+}
+
+#vc-spotify-titles {
+    padding: 0;
+}
+
+#vc-spotify-song-title,
+.vc-spotify-artist,
+.vc-spotify-album {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#vc-spotify-song-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.vc-spotify-artist,
+.vc-spotify-album {
+    font-size: 14px;
+}
+
+.vc-spotify-button-row {
+    width: fit-content;
+    align-self: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ease;
+    order: 1;
+    z-index: 1;
+}
+
+#vc-spotify-player:hover .vc-spotify-button-row {
+    height: 32px;
+}
+
+#vc-spotify-progress-bar {
+    order: 2;
+    z-index: 1;
+}
+
+.vc-spotify-button {
+    --interactive-normal: #FFFFFF;
+    --interactive-hover: #FFFFFF;
+    filter: drop-shadow( 0px 1px 4px rgba(0, 0, 0, 0.6));
+}
+
+.vc-spotify-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.vc-spotify-progress-time {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: transparent;
+    background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif");
+    background-size: cover;
+    border: none;
+    transform: rotate(90deg);
+    margin-left: -16px;
+    inset: 3px 0 0 0px;
+    box-shadow: none;
+}
+
+/* Transparent album image to preserve onClick functionality */
+#vc-spotify-album-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#vc-spotify-info-wrapper {
+    position: static
+}
+
+#vc-spotify-titles > * {
+    z-index: 2;
+    max-width: 100%;
+    width: auto;
+}
+
+/* Handle expanded album image */
+
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) {
+    position: relative;
+    aspect-ratio: 1/1;
+}
+
+#vc-spotify-album-expanded-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+#vc-spotify-album-expanded-wrapper > #vc-spotify-album-image {
+    opacity: 1;
+    z-index: 1;
+}
+
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) .vc-spotify-button-row {
+    margin-top: auto;
 }
 
 /*custom user setting profile position*/
@@ -2278,7 +2430,11 @@ svg {
 /*custom new unreads*/
 .bar_eba0ba {
     padding: 14px 50px;
-    /*margin-bottom: 85px;*/ /* This causes issues and won't let near by channel to be click able */
+}
+
+/* Fixes position of unreads at the bottom of the channel list */
+.bottom_eba0ba {
+  transform: translateY(-85px);
 }
 
 .unreadIcon_eba0ba {
@@ -2298,32 +2454,32 @@ svg {
 }
 
 /* remove date divider */
-.hasContent_d5deea {
-    display: none;
+.hasContent_c2654d {
+  display: none;
 }
 
 /* Un-hide unread divider with date */
-.isUnread_fc5f50 {
-    display: flex !important;
+.isUnread_c2654d {
+  display: flex !important;
 }
 
 /* Hide date in unread divider */
-.content_fc5f50 {
-    display: none;
+.content_c2654d {
+  display: none;
 }
 
 /*custom nsfw warning*/
-.image_b9693a {
+.image_def860 {
     content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
 }
 
-.flex_bba380.vertical_ec1a20.gatedContent_b9693a
-> .flex_bba380.flex_ec1a20.horizontal_bba380.horizontal_ec1a20.flex_ec1a20.directionRow__65900.justifyCenter_ec1a20.alignCenter_ec1a20.noWrap_ec1a20 {
+.flex_dc333f.vertical_ec1a20.gatedContent_def860
+> .flex_dc333f.flex_ec1a20.horizontal_dc333f.horizontal_ec1a20.flex_ec1a20.directionRow__65900.justifyCenter_ec1a20.alignCenter_ec1a20.noWrap_ec1a20 {
     background: transparent !important;
 }
 
 /*message hover small buttons fix*/
-.theme-dark .wrapper_ef319f {
+.theme-dark .wrapper_f7e168 {
     background: rgb(51, 49, 53) !important;
 }
 
@@ -2458,7 +2614,7 @@ svg {
     unicode-range: U+2014;
 }
 
-.blockedSystemMessage_c09d0f .iconContainer_e62b38 {
+.blockedSystemMessage_c09d0f .iconContainer_d76df7 {
     display: none;
 }
 
@@ -2475,7 +2631,7 @@ svg {
     margin-right: -3px;
 }
 
-.blockedSystemMessage_c09d0f .content_e62b38 {
+.blockedSystemMessage_c09d0f .content_d76df7 {
     font-size: 12px !important;
     font-weight: 500;
     padding: 1px 0;
@@ -2782,7 +2938,7 @@ li.row-uezxzk {
     padding-left: unset;
 }
 
-.chat_d6c7e0 .scrollerInner_e2e187 > li:nth-child(3) .header_ec86aa {
+.chat_d6c7e0 .scrollerInner_e2e187 > li:nth-child(3) .header_f9f2ca {
     margin-left: 72px;
     padding-bottom: 20px;
     margin-bottom: 16px;
@@ -2792,21 +2948,21 @@ li.row-uezxzk {
 .chat_d6c7e0
 .scrollerInner_e2e187
 > li:nth-child(3)
-:is(.messageContent_ec86aa, .container_b558d0) {
+:is(.messageContent_f9f2ca, .container_b558d0) {
     margin-left: 16px;
     font-size: 23px;
     line-height: 28px;
     padding-left: unset;
 }
 
-.chat_d6c7e0 .scrollerInner_e2e187 > li:nth-child(3) .timestampInline_ec86aa {
+.chat_d6c7e0 .scrollerInner_e2e187 > li:nth-child(3) .timestampInline_f9f2ca {
     font-size: 0;
 }
 
 .chat_d6c7e0
 .scrollerInner_e2e187
 > li:nth-child(3)
-.timestampInline_ec86aa
+.timestampInline_f9f2ca
 > time::after {
     position: absolute;
     left: 0;
@@ -3065,7 +3221,7 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
 }
 
 /*animated chat name hover*/
-.username_ec86aa:after {
+.username_f9f2ca:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -3078,11 +3234,11 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
     transition: transform .1s;
 }
 
-.username_ec86aa:hover {
+.username_f9f2ca:hover {
     text-decoration: none !important;
 }
 
-.username_ec86aa:hover:after {
+.username_f9f2ca:hover:after {
     transform: scaleX(1);
     transform-origin: bottom center;
 }
@@ -3331,7 +3487,7 @@ html .channelTabs-newTab {
     opacity: 01 !important;
 }
 
-.gameIcon_f394e5 {
+.gameIcon_a9e62c {
     color: transparent;
 }
 
@@ -3358,7 +3514,7 @@ html .channelTabs-newTab {
     background: transparent !important;
 }
 
-.children_e44302:after {
+.children_fc4f04:after {
     background: transparent !important;
 }
 
@@ -3444,7 +3600,7 @@ html .channelTabs-newTab {
 }
 
 /* Disable .root_f9a4c9 background in unintended places */
-.container_f4e139, .zoomedCarouselModalRoot_b586d2 {
+.container_f4e139, .zoomedCarouselModalRoot_f74404 {
     background: transparent !important;
     backdrop-filter: none !important;
 }
@@ -3455,7 +3611,7 @@ html .channelTabs-newTab {
 }
 
 /* File attachment */
-.attachment_a4623d {
+.attachment_b52bef {
     border-color: transparent;
     background-color: #181a1d99;
 }
