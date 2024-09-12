@@ -11,31 +11,33 @@
 OilyGranySmith
 */
 
-/*oily*/
+/* oily theme entry point */
 @import url('https://OILYY.github.io/GranySmith/GranySmith.css');
 
-/*removable addons*/
-/* @import url("https://OILYY.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css"); */
+/* removable addons */
+@import url("https://OILYY.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 @import url('https://OILYY.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 @import url('https://OILYY.github.io/Discolored/main.css');
 @import url("https://OILYY.github.io/GranySmith/Addons/IconPackEdited.css");
 @import url("https://OILYY.github.io/GranySmith/Addons/AvatarOnlyMemberList.css");
 @import url("https://OILYY.github.io/GranySmith/Addons/FolderRedesign.css");
+@import url("https://OILYY.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://OILYY.github.io/GranySmith/Addons/FriendGrid.css");
 
-/*additional addons*/
-/*(remove the both * to use)*/
+/*additional addons*/ /*(remove the both * to use)*/
 /*@import url("https://OILYY.github.io/GranySmith/Addons/SimpleLessLag.css");*/
 
 
-/*GranySmith Roots*/
+/*Oily Roots*/
 :root {
     /*background image*/ /*(replace the link to use)*/
     --background-image: var(--wallpaper);
+    --bg-opacity: 100%;
     /*bg dev suggestions*/
-    --wallpaper: url('https://i.imgur.com/7dJpT2Q.jpg');
+    --wallpaper: url("https://i.imgur.com/7dJpT2Q.jpg");
     /*modern background selection*/
-    --modern-dark-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096');
-    --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
+    --modern-dark-bg: url("https://OILYY.github.io/GranySmith/Wallpapers/modern-dark-bg.png");
+    --modern-light-bg: url("https://OILYY.github.io/GranySmith/Wallpapers/modern-light-bg.png");
 }
 
 
@@ -64,6 +66,7 @@ OilyGranySmith
     --edited-message: " EDITED ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
+    --group-chat-font: "Monoton"; /* change this to change the group chat's default font */
 
 
     /*glow radial status*/ /*must end in px*/
@@ -80,21 +83,37 @@ OilyGranySmith
     --rs-offline-color: #636b75;
     --rs-streaming-color: #643da7;
     --rs-invisible-color: #636b75;
-    --rs-phone-visible: block;
+    --rs-phone-visible: block; /* change it to `none` to disable mobile icon */
     --rs-phone-color: var(--rs-online-color);
 
-
-    /*oily colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+    /* For accent color to take full effect must need to change both */
+    /* oily colours rgb */
     --accentcolor: 214, 191, 91;
-    /*oily colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+    /* oily colours hex */
     --accentcolorV2: #d6bf5b;
 
 
-    /*settings modal root*/
+    /* settings modal root */
     --themelightsettingsmodalbackground: rgb(223, 223, 223);
     --themedarksettingsmodalbackground: rgb(51, 49, 53);
     --settingsmodalwidth: 960px;
     --settingsmodalheight: 80vh;
+
+    /* avatar only member list */
+    --memberlist-border-radius: 25px; /* can be in `px`, `rem`, `em` */
+
+    /* placeholder texts/values */
+    /* input fields */
+    --oily-input-field: "What is on your mind today OilyGranySmith?";
+    /* input fields  when the channel is locked*/
+    --oily-input-field-locked: "Sorry Oily, This Channel is Locked";
+    /* typing indicator: when a single person is typing */
+    --oily-input-typing-indicator-one-person: "is smashing some buttons";
+    /* typing indicator: when more than one person is typing */
+    --oily-input-typing-indicator-many-person: "are smashing some buttons";
+
+    /* scroller (by default transparent) */
+    --oily-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
 }
 
 /*discord transparency*//*roots*/ /*theme dark*/
@@ -137,25 +156,18 @@ OilyGranySmith
     --deprecated-panel-background: transparent;
 }
 
-/*friends grid banner colour*/
-.theme-dark {
-    --FG-cards-banner-background: transparent !important;
-}
+/*!*friends grid banner colour*!*/
+/*.theme-dark {*/
+/*    --FG-cards-banner-background: transparent !important;*/
+/*}*/
 
-.theme-light {
-    --FG-cards-banner-background: transparent !important;
-}
+/*.theme-light {*/
+/*    --FG-cards-banner-background: transparent !important;*/
+/*}*/
 
 
 /*Permissions*/
 /*
 -You do not have the rights to use our theme name OilyGranySmith™ on other projects 
--You do not have the rights to remove our theme watermark in the theme
 -You do not have the rights to change this theme author name to anyone
-*/
-
-/*credits*/
-/*
-========================= Oily =========================
- Oily                                             Author
 */
