@@ -23,9 +23,13 @@ OilyGranySmith
 @import url("https://OILYY.github.io/GranySmith/Addons/FolderRedesign.css");
 @import url("https://OILYY.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://OILYY.github.io/GranySmith/Addons/FriendGrid.css");
+@import url("https://OILYY.github.io/GranySmith/Addons/ColoredLinks.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
+/*use the below css if you are experiencing lag (remove the both * to use)*/
 /*@import url("https://OILYY.github.io/GranySmith/Addons/SimpleLessLag.css");*/
+/* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
+/*@import url("https://OILYY.github.io/GranySmith/Addons/HideAnnoyingElements.css");*/
 
 
 /*Oily Roots*/
@@ -100,7 +104,7 @@ OilyGranySmith
     --settingsmodalheight: 80vh;
 
     /* avatar only member list */
-    --memberlist-border-radius: 25px; /* can be in `px`, `rem`, `em` */
+    --memberlist-border-radius: 10px; /* can be in `px`, `rem`, `em` */
 
     /* placeholder texts/values */
     /* input fields */
