@@ -4,8 +4,7 @@
 }
 
 .panels_c48ade {
-    border-radius: 12px;
-    margin: 10px;
+    border: none !important;
 }
 
 html.theme-dark .panels_c48ade {
@@ -18,10 +17,35 @@ html.theme-light .panels_c48ade {
     box-shadow: 0 5px 8px #d6d6d6;
 }
 
+/* Dynamically re adjusting the position and width for new UI based on sidebar width */
+.sidebar_c48ade {
+    /* Value is 1000px if sidebar is wider than 375px, 0px otherwise */
+    /* Use it to toggle pixel values with: clamp(0px, var(--is-wide), var(--value-when-wide)) */
+    /* Or to invert it: clamp(0px, (var(--is-wide) * -1) + 1000px, var(--value-when-narrow)) */
+    --is-wide: calc(max(min(100 * (var(--custom-guild-sidebar-width) - 375px), 1px), 0px) * 1000);
+}
+
+.panels_c48ade {
+    /* Set max width and shift to the right if the sidebar is wide */
+    max-width: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, 1000px) + clamp(0px, var(--is-wide), 280px)) !important;
+    left: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-panels-spacing)) + clamp(0px, var(--is-wide), 85px)) !important;
+    border-radius: 15px;
+}
+
+.wrapper_ef3116 {
+    /* If user area was shifted over, remove margin and allow channel list to go all the way down */
+    /* Otherwise, use app panel / user area height as margin */
+    margin-bottom: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-app-panels-height, 0) + var(--space-xs)) + clamp(0px, var(--is-wide), var(--space-xs))) !important;
+}
+
 .sidebar_c48ade {
     background-color: transparent;
     position: relative;
     overflow: hidden;
+}
+
+.sidebar_c48ade:after {
+    background: transparent !important;
 }
 
 html.theme-dark .sidebar_c48ade .content__99f8c:after {
@@ -34,16 +58,32 @@ html.theme-light .sidebar_c48ade .content__99f8c:after {
     text-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
-.panels_c48ade > .container__37e49 .flex__7c0ba > :not(:last-child) {
-    opacity: 0 !important;
-    width: 50px;
+/*.panels_c48ade > .container__37e49 .flex__7c0ba > :not(:last-child) {*/
+/*    opacity: 0 !important;*/
+/*    width: 50px;*/
+/*    transition: all 0.3s;*/
+/*}*/
+
+/*.panels_c48ade > .container__37e49:hover .flex__7c0ba > :not(:last-child) {*/
+/*    opacity: 100% !important;*/
+/*    width: 40px;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/* Hide all immediate children */
+.panels_c48ade .buttons__37e49 > * {
+    opacity: 0;
     transition: all 0.3s;
 }
 
-.panels_c48ade > .container__37e49:hover .flex__7c0ba > :not(:last-child) {
-    opacity: 100% !important;
-    width: 40px;
-    margin-left: 10px;
+/* Make the last child (settings icon) visible by default */
+.panels_c48ade .buttons__37e49 > :nth-last-child(2) {
+    opacity: 1;
+}
+
+/* When hovering over the container, show all children */
+.panels_c48ade .buttons__37e49:hover > * {
+    opacity: 1;
 }
 
 .button__67645[aria-label="User Settings"] {
@@ -75,52 +115,15 @@ html.theme-light .sidebar_c48ade .content__99f8c:after {
 /* Avatar in bottom left */
 .avatarWrapper__37e49 {
     max-width: 36px;
-    min-width: 36px;
+    min-width: 36px !important;
     transition: 0.3s;
 }
 
 .avatarWrapper__37e49:hover {
-    max-width: 207px;
-    min-width: 207px;
+    min-width: 270px !important;
+    max-width: 270px;
     transition: 0.3s;
 }
-
-
-/* Fix for Vencord Game Activity Toggle Plugin */
-
-.container__37e49:has(button[aria-label='Enable Game Activity']) > :first-child {
-    min-width: 36px !important;
-}
-
-.container__37e49:has(button[aria-label='Enable Game Activity']) > :first-child:hover {
-    min-width: 207px !important;
-}
-
-.panels_c48ade > .container__37e49:has(button[aria-label='Enable Game Activity']) .flex__7c0ba > :not(:last-child) {
-    width: 38px !important;
-}
-
-.panels_c48ade > .container__37e49:has(button[aria-label='Enable Game Activity']):hover .flex__7c0ba > :not(:last-child) {
-    margin-left: 0px !important;
-}
-
-.container__37e49:has(button[aria-label='Disable Game Activity']) > :first-child {
-    min-width: 36px !important;
-}
-
-.container__37e49:has(button[aria-label='Disable Game Activity']) > :first-child:hover {
-    min-width: 207px !important;
-}
-
-.panels_c48ade > .container__37e49:has(button[aria-label='Disable Game Activity']) .flex__7c0ba > :not(:last-child) {
-    width: 38px !important;
-}
-
-.panels_c48ade > .container__37e49:has(button[aria-label='Disable Game Activity']):hover .flex__7c0ba > :not(:last-child) {
-    margin-left: 0 !important;
-}
-
-/* End of the if*/
 
 /*user setting icon spin*/
 .button__67645:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
@@ -266,10 +269,10 @@ html.theme-light .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .barFill
 }
 
 .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .grabber_7sd5f5 {
-    width: 25px;
-    height: 25px;
+    width: var(--oily-spotify-control-squid-width);
+    height: var(--oily-spotify-control-squid-height);
     background-color: transparent;
-    background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif");
+    background-image: var(--oily-spotify-control-squid-gif-url);
     background-size: cover;
     transform: rotate(90deg);
     border-radius: 0;
@@ -315,7 +318,8 @@ html.theme-light .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .barFill
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    /* 1px smaller to avoid aliasing issues */
+    border-radius: calc(var(--radius-sm) - 1px) !important;
     margin: 8px;
     padding: 8px;
     border-bottom-color: transparent;
@@ -370,20 +374,6 @@ html.theme-light #vc-spotify-player {
     font-size: 14px;
 }
 
-.vc-spotify-button-row {
-    width: fit-content;
-    align-self: center;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.2s ease;
-    order: 1;
-    z-index: 1;
-}
-
-#vc-spotify-player:hover .vc-spotify-button-row {
-    height: 32px;
-}
-
 #vc-spotify-progress-bar {
     order: 2;
     z-index: 1;
@@ -404,18 +394,18 @@ html.theme-light #vc-spotify-player {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-#vc-spotify-progress-bar > [class^=slider] [class^=grabber] {
-    width: 25px !important;
-    height: 25px !important;
+/* #vc-spotify-progress-bar .grabber_a562c8 {
+    width: var(--oily-spotify-control-squid-width) !important;
+    height: var(--oily-spotify-control-squid-height) !important;
     background-color: transparent;
-    background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif");
+    background-image: var(--oily-spotify-control-squid-gif-url);
     background-size: cover;
     border: none;
     transform: rotate(90deg);
     margin-left: -16px;
     inset: 3px 0 0 0px;
     box-shadow: none;
-}
+} */
 
 /* Transparent album image to preserve onClick functionality */
 #vc-spotify-album-image {
