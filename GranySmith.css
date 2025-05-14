@@ -13,7 +13,7 @@
 @import url("https://OILYY.github.io/Friends-Grid/theme.css");
 @import url("https://OILYY.github.io/css-snippets/AccountDetailsGrid/import.css");
 
-/****GranySmith COMPONENTS****/
+/****GRANYSMITH COMPONENTS****/
 @import url('https://OILYY.github.io/GranySmith/Components/WindowsButtons.css');
 @import url('https://OILYY.github.io/GranySmith/Components/UserArea.css');
 @import url('https://OILYY.github.io/GranySmith/Components/Embeds.css');
@@ -33,10 +33,49 @@
     background: transparent !important;
 }
 
-/*friends tab*/
-.content_c48ade > div,
-.panels_c48ade {
-    background: transparent !important;
+/* Server list */
+.wrapper_ef3116 {
+    background-color: transparent !important;
+}
+
+/* Channel list */
+.container__2637a {
+    background-color: transparent !important;
+}
+
+.sidebarListRounded_c48ade {
+    backdrop-filter: none !important;
+}
+
+/* Main chat area */
+.chat_f75fb0 {
+    background-color: transparent !important;
+}
+
+/* Chat message area */
+.chatContent_f75fb0 {
+    background-color: transparent !important;
+}
+
+/* Member list */
+.container_c8ffbb, .members_c8ffbb, .member_c8ffbb {
+    background-color: transparent !important;
+}
+
+/* Placeholder for unloaded messages */
+.wrapper_d852db,
+.wrapper_fc8177 {
+    background-color: transparent !important;
+}
+
+/* Hide borders */
+.sidebarList_c48ade,
+.container_c8ffbb,
+.chat_f75fb0,
+.chatContent_f75fb0,
+.container__9293f,
+.channelTextArea_f75fb0 {
+    border-color: transparent !important;
 }
 
 /*transparent scrollbar*/
@@ -72,8 +111,38 @@
 /* transparent role selection / browse channels / members page background */
 .container__9293f,
 .container__0b563,
-.container_c2efea {
+.container_c2efea,
+.visual-refresh .page_c791b2,
+.visual-refresh .mainTableContainer__09a38,
+.visual-refresh .container__0b563, .visual-refresh .header__0b563,
+.visual-refresh .pageBody__41ed7,
+.visual-refresh .channelRow_e4503a {
     background-color: transparent !important;
+}
+
+/* discover server section transparent background */
+.visual-refresh .container__551b0,
+.visual-refresh .scroller__23746 {
+    background-color: transparent !important;
+}
+
+.theme-dark .gradient_e9ef78 {
+    background: radial-gradient(130.66% 324.98% at -3.95% 0, #b41010 0, rgba(15, 28, 143, 0.8) 35.73%, rgba(8, 175, 16, 0) 100%), #000;
+}
+
+/* Transparent background for the shop, nitro page */
+.visual-refresh .shop__6db1d,
+.shopScroll__6db1d,
+.shop__08415,
+.pageWrapper__6db1d,
+.applicationStore_f07d62,
+.visual-refresh .homeWrapper__0920e,
+.allPerksScroller_ca1a02, .mainPageScroller_ca1a02 {
+    background: transparent !important;
+}
+
+.headerArtV2__3ce43 {
+    border-radius: 15px;
 }
 
 /**transparent part LVL II**/
@@ -402,6 +471,10 @@ html.theme-light .elevationBorderHigh__2b2f1 {
     margin-left: 6.5px;
     transition: all 0.2s;
     color: #fff !important;
+}
+
+.visual-refresh .barButtonAlt__0f481 {
+    padding: 0px !important;
 }
 
 .newMessagesBar__0f481.barBase__0f481:hover .barButtonIcon__0f481 {
@@ -859,7 +932,7 @@ html.theme-light .mentioned__5126c:hover {
     border-radius: 30px;
 }
 
-/*oily appearance theme*/
+/*granysmith appearance theme*/
 html.theme-dark {
     --cl-appearance: "Dark";
 }
@@ -884,8 +957,10 @@ html.theme-light {
 }
 
 /*custom popout window*/
-#app-mount .layers__960e4 {
+.content_c48ade {
     margin: var(--window-margin);
+    /* Leave space for title bar's padding */
+    margin-top: 4px;
     overflow: hidden;
     border-radius: var(--window-border-radius);
     background: var(--window-colour);
@@ -1014,11 +1089,11 @@ div[class*="wrapper__44b0c"][aria-label*="Online"]
 
 /*theme background image*/
 .bg__960e4 {
-    background-image: var(--background-image);
-    opacity: var(--bg-opacity);
-    background-attachment: var(--background-attachment, fixed);
-    background-size: var(--background-size, cover);
-    background-position: var(--background-position, center);
+    background-image: var(--background-image) !important;
+    opacity: var(--bg-opacity) !important;
+    background-attachment: var(--background-attachment, fixed) !important;
+    background-size: var(--background-size, cover) !important;
+    background-position: var(--background-position, center) !important;
 }
 
 /*remove those annoying shadow on top of the chats*/
@@ -1162,7 +1237,7 @@ svg {
     box-shadow: 0 0 10px 2px #ff2d54;
 }
 
-/*oily squad font and colour change*/
+/*granysmith font and colour change*/
 [href="https\:\/\/github.com/OILYY/GranySmith#Author"] {
     font-family: "Libre Barcode 128 Text";
     color: rgb(255, 161, 161) !important;
@@ -1548,7 +1623,7 @@ html.theme-light .withTagAsButton_b2ca13:hover {
 .layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .container__8061a {
     justify-content: center;
     width: 100%;
-    margin-bottom: 57px;
+    /*margin-bottom: 57px;*/
 }
 
 .layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button__201d5 {
@@ -1634,7 +1709,6 @@ html.theme-light .withTagAsButton_b2ca13:hover {
 
 .scroller_ef3116 > div[aria-label="Servers"] {
     overflow: hidden auto;
-    margin: 10px 0;
 }
 
 .scroller_ef3116 > div[aria-label="Servers"]::-webkit-scrollbar {
@@ -2216,6 +2290,15 @@ button {
     font-size: 0;
 }
 
+/* Fixing the transparency issue for forum issue initial headers */
+.header__34c2c {
+    background: transparent !important;
+}
+
+.container__34c2c {
+    background: transparent !important;
+}
+
 /*radial status small circle fix*/
 .wrapper-1VLyxH > .svg-2azL_l circle {
     opacity: 0 !important;
@@ -2259,7 +2342,7 @@ button {
     display: none;
 }
 
-#Oily-card [href='https\:\/\/github.com/OILYY/GranySmith'] {
+#Oily-card [href='https\:\/\/github.com/OILYY/Granysmith'] {
     color: #fff !important;
 }
 
@@ -2512,11 +2595,13 @@ html.theme-light [d="M21.226 30v-4.154h-3.755V30h3.755zm-.512-8.62c3.67-1.337 5.
 }
 
 html.theme-dark .container__01ae2 {
+    /*todo: extract this a var and give users to set the color however they want*/
     background: rgba(26, 26, 26) !important;
     z-index: 1000;
 }
 
 html.theme-light .container__01ae2 {
+    /*todo: extract this a var and give users to set the color however they want*/
     background: rgba(255, 255, 255) !important;
     z-index: 1000;
 }
@@ -2580,6 +2665,11 @@ html.theme-light .container_faa96b.isOpen_faa96b {
 }
 
 .container_f369db {
+    background: transparent !important;
+}
+
+.resizeHandle__01ae2,
+.container__01ae2 {
     background: transparent !important;
 }
 
@@ -2795,59 +2885,98 @@ html.theme-light img[src="https://cdn.discordapp.com/icons/881453188509753384/0d
 
 /* Fix colors due to `.theme-dark` custom properties being applied in light mode */
 html.theme-light .container__37e49 {
-  /* Button color in floating user controls */
-  color: #3a3a3a;
+    /* Button color in floating user controls */
+    color: #3a3a3a;
 }
 
 html.theme-light .container__37e49 .lottieIcon__5eb9b path {
-  /* Settings icon  */
-  fill: #3a3a3a !important;
+    /* Settings icon  */
+    fill: #3a3a3a !important;
 }
 
 html.theme-light .contents__201d5 {
-  /* Vencord game activity toggle */
-  color: #3a3a3a;
+    /* Vencord game activity toggle */
+    color: #3a3a3a;
 }
 
 html.theme-light .defaultColor__4bd52,
 html.theme-light .headerChildren_f37cb1 {
-  color: #303030;
+    color: #303030;
 }
 
 html.theme-light .childWrapper__6e9f8 {
-  color: #303030;
+    color: #303030;
 }
 
 html.theme-light .brand_b3f026.item_b3f026,
 html.theme-light .themed_b3f026.item_b3f026 {
-  /* Items and tabs in settings */
-  color: #3a3a3a;
+    /* Items and tabs in settings */
+    color: #3a3a3a;
 }
 
 html.theme-light .header_b3f026 {
-  /* Headers in settings */
-  color: #585b5e;
+    /* Headers in settings */
+    color: #585b5e;
 }
 
 html.theme-light .input_fea832 {
-  /* Search box in settings */
-  color: #303030;
+    /* Search box in settings */
+    color: #303030;
 }
 
 html.theme-light .name__2ea32,
 html.theme-light .container__13cf1 {
-  /* Channels */
-  color: #585b5e;
+    /* Channels */
+    color: #585b5e;
 }
 
 html.theme-light .modeMuted__2ea32:hover .name__2ea32,
 html.theme-light .wrapper__2ea32:hover .name__2ea32,
 html.theme-light .wrapper__29444:hover .name__29444 {
-  /* Channels hover */
-  color: #333333;
+    /* Channels hover */
+    color: #333333;
 }
 
 html.theme-light .modeSelected__2ea32 .name__2ea32 {
-  /* Channels active */
-  color: black;
+    /* Channels active */
+    color: black;
+}
+
+/* Side bar transparency fix */
+/* Maybe a temp fix but I don't have much
+ time to look into in details */
+.privateChannels__35e86 {
+    background: transparent !important;
+}
+
+.scroller__99e7c {
+    background: transparent !important;
+}
+
+/* fix for friend tab transparency */
+.container__133bf {
+    background: transparent !important;
+}
+
+.tabBody__133bf {
+    background: transparent !important;
+}
+
+/* Friend Tab Activity section transparent background fix */
+.nowPlayingColumn__133bf {
+    background: transparent !important;
+}
+
+.container__7d20c {
+    background: transparent !important;
+}
+
+/* adding padding between discord logo and top */
+.tutorialContainer__1f388:first-child {
+    padding-top: 5px;
+}
+
+/* Fix for VC call items bg */
+.buttonSection__1405b {
+    background: none !important;
 }
